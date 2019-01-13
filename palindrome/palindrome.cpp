@@ -17,6 +17,7 @@ void palindromeTester(string s)
 		if (s[i] != s[(n - 1) - i])
 		{
 			isPalindrome = false;
+			break;
 		}
 		else
 		{
